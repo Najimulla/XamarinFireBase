@@ -9,8 +9,6 @@ namespace XamarinFireBase.Helper
 {
     public class FirebaseHelper
     {
-        // https://xamarinfirebase-4e521.firebaseio.com/
-        //FirebaseClient firebase = new FirebaseClient("https://xamarinfirebase-xxxxx.firebaseio.com/");
         FirebaseClient firebase = new FirebaseClient("https://xamarinfirebase-4e521.firebaseio.com/");
         public async Task<List<Person>> GetAllPersons()
         {
